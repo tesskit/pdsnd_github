@@ -2,10 +2,11 @@
 February 9, 2021
 
 ### Project Title
-Replace the Project Title
+New Git Project with bikeshare_py project.
 
 ### Description
-Describe what your project is about and what it does
+This project utilizes a forked git repo that I will make clone and make commits and push
+back up to my remote branches.
 
 ### Files used
 Include the files used
