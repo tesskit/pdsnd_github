@@ -2,7 +2,7 @@
 February 9, 2021
 
 ### Project Title
-New Git Project with bikeshare_py project.
+Git Project for Data Science Nano Degree.
 
 ### Description
 This project utilizes a forked git repo that I will make clone and make commits and push
