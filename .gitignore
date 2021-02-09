@@ -1,0 +1,4 @@
+# .gitignore will ignore files so they will not get submitted or logged about
+
+# csv files
+*.csv
