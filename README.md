@@ -9,8 +9,10 @@ This project utilizes a forked git repo that I will make clone and make commits 
 back up to my remote branches.
 
 ### Files used
-Include the files used
+README.md
+bikeshare_2.py
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+I forked this repo for the project:
+https://github.com/udacity/pdsnd_github
