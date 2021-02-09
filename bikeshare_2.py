@@ -262,7 +262,7 @@ def main():
         
         print('\tOK here are some nice stats for you')
 
-        print('-'*40)
+        print('-'*50)
         station_stats(df)
         trip_duration_stats(df)
         user_types(df)
