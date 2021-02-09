@@ -263,10 +263,10 @@ def main():
         print('\tOK here are some nice stats for you')
 
         print('-'*40)
-        time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
         user_types(df)
+        time_stats(df)
         if city.lower() != 'washington':
             user_stats(df)
 
