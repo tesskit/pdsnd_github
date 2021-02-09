@@ -269,7 +269,7 @@ def main():
         user_types(df)
         if city.lower() != 'washington':
             user_stats(df)
-
+        # raw_data question needs to be asked after showing user above data
         raw_data = input('\n\tIf you would like to see raw data, enter yes.\n')
         if raw_data.lower() == 'yes':
             print('\t----- yeehaw raw data -----\n')
