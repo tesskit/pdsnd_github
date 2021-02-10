@@ -77,6 +77,7 @@ def load_data(city, month, day):
     # need to convert it to this so we can then extract the hour, month and day of the week
     df['Start Time'] = pd.to_datetime(df['Start Time'])
 
+    # Need this conversion here
     month = month.lower()
     day = day.lower()
 
@@ -262,11 +263,11 @@ def main():
         
         print('\tOK here are some nice stats for you')
 
-        print('-'*40)
-        time_stats(df)
+        print('-'*50)
         station_stats(df)
         trip_duration_stats(df)
         user_types(df)
+        time_stats(df)
         if city.lower() != 'washington':
             user_stats(df)
         # raw_data question needs to be asked after showing user above data
