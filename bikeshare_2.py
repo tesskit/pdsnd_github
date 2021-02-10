@@ -77,6 +77,7 @@ def load_data(city, month, day):
     # need to convert it to this so we can then extract the hour, month and day of the week
     df['Start Time'] = pd.to_datetime(df['Start Time'])
 
+    # Need this conversion here
     month = month.lower()
     day = day.lower()
 
